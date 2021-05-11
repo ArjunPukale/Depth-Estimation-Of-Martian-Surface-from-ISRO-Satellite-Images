@@ -24,8 +24,7 @@ The dataset consists of two type of images -<br>
 <b>Data Preprocessing</b>
 </br>
 o We captured 1:1 identical pair of images from Isro satellite images and Nasa's Mola Depth Map respectively, along Valles Marineris canyon system at the map scale of 53km .<br>
-<br>
-![Alt text](/Images/sample pair image.jpg?raw=true "Sample Paired Image")
+![Alt text](/Images/sample_pair_image.jpg?raw=true "Sample Ecg Graphs")
 <br>
 o A total of 38 images were collected which were captured by MOM at different intervals of time in its orbits. <br>
 o Each image was augmented to a set of 10 images thus reaching a total count of 380 images.<br>
