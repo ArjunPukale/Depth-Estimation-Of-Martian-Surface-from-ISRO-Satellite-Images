@@ -1,5 +1,5 @@
 # Depth-Estimation-Of-Martian-Surface-from-ISRO-Satellite-Images
-Using Pix2Pix model for image to image translation from Domain A (ISRO satellite image of Martian Surface) to Domain B (Corresponding Depth Image)
+Using Pix2Pix model for image to image translation from Domain A (ISRO satellite image of Martian Surface) to Domain B (Corresponding Depth Image)<br>
 
 <br>
 <b>Abstract</b>
@@ -23,20 +23,24 @@ The dataset consists of two type of images -<br>
 <br>
 <b>Data Preprocessing</b>
 </br>
-o We captured 1:1 identical pair of images from Isro satellite images and Nasa's Mola Depth Map respectively, along Valles Marineris canyon system at the map scale of 53km .<br>
-![Alt text](/Images/sample_pair_image.jpg?raw=true "Sample Ecg Graphs")
+1. We captured 1:1 identical pair of images from Isro satellite images and Nasa's Mola Depth Map respectively, along Valles Marineris canyon system at the map scale of 53km .<br>
+2. A total of 38 images were collected which were captured by MOM at different intervals of time in its orbits. <br>
+3. Each image was augmented to a set of 10 images thus reaching a total count of 380 images.<br>
+4. Different augmentation techniques were used such as :<br>
+&emsp;Resize<br>
+&emsp;Rotate<br>
+&emsp;Shift Scale<br>
+&emsp;Center Crop<br>
+&emsp;Horizontal flip<br>
+&emsp;Vertical flip<br>
+&emsp;Blur<br>
+&emsp;Brightness<br>
+&emsp;Contrasts<br>
+&emsp;Hue Saturation<br> 
+5. These images were randomly partitioned into training (343) & testing (37) .<br>
 <br>
-o A total of 38 images were collected which were captured by MOM at different intervals of time in its orbits. <br>
-o Each image was augmented to a set of 10 images thus reaching a total count of 380 images.<br>
-o Different augmentation techniques were used such as :
-&emsp;Resize
-&emsp;Rotate
-&emsp;Shift Scale
-&emsp;Center Crop
-&emsp;Horizontal flip
-&emsp;Vertical flip
-&emsp;Blur
-&emsp;Brightness
-&emsp;Contrasts
-&emsp;Hue Saturation 
-o These images were randomly partitioned into training (343) & testing (37) .
+
+
+
+### Sample Pair Image<br>
+![OUTPUT](./Images/sample_pair_image.jpg)
