@@ -44,3 +44,12 @@ The dataset consists of two type of images -<br>
 
 ### Sample Pair Image<br>
 ![OUTPUT](./Images/sample_pair_image.jpg)
+
+### Model Used:
+We have used [<b>Pix2Pix</b>](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) model to solve this Task.<br>
+We have tested this model with two loss functions:
+&emsp;1.Vanilla Gan Loss
+&emsp;2.Lsgan Loss
+<br>
+### Results:
+![OUTPUT](./Images/sample_pair_image.jpg)<br>
