@@ -51,5 +51,11 @@ We have tested this model with two loss functions:
 &emsp;1.Vanilla Gan Loss
 &emsp;2.Lsgan Loss
 <br>
-### Results:
-![OUTPUT](./Images/sample_pair_image.jpg)<br>
+## Results<br>
+### Output:
+![OUTPUT](./Images/comparison.JPG)<br>
+### Loss Function vs Performance Metrics:
+![OUTPUT](./Images/loss_func_vs_metrics.JPG)<br>
+
+### Performance Metric Distribution:
+![OUTPUT](./Images/Metric_dist.png)<br>
