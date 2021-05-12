@@ -16,8 +16,8 @@ We proposed a method where we use Generative Adversarial Networks to estimate su
 </br>
 For this project currently there exists no specific dataset, which consists of both the satellite images and the depth maps, hence we created our own dataset for this project. 
 <br>
-The dataset consists of two type of images -<br>
-&emsp;1. Satellite images which were taken from ISRO’s Mars Orbiter.<br>
+The dataset we created consists of two type of images -<br>
+&emsp;1. Satellite images which were taken from ISRO’s Mars Orbiter in different lighting conditions.<br>
 &emsp;2. Depth image obtained from NASA’s MOLA map.<br>
 
 <br>
