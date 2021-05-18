@@ -38,7 +38,6 @@ The dataset we created consists of two type of images -<br>
 &emsp;Contrasts<br>
 &emsp;Hue Saturation<br> 
 5. These images were randomly partitioned into training (343) & testing (37) .<br>
-<br>
 6. Each Training Image is of size 256x256.<br>
 
 
