@@ -8,7 +8,7 @@ Currently, the Indian Space Research Organization (ISRO) is carrying out various
 
 One such research area that ISRO is currently focusing on is estimating the depths of various valleys, canyon systems of the Martian planet. As per the current scenario, one such method for estimating depths is using Lidar technology. 
 
-We proposed a method where we use Generative Adversarial Networks to estimate such Depth Maps, which can be further used for creating 3D models or simulations of the surface for researching and further planning of future missions.   
+We proposed a method where we use Generative Adversarial Networks to estimate such Depth Maps using just a single input image, without using hardwares like sterio, lidar, etc. This Depth Map can be further used for creating 3D models or simulations of the surface for researching and further planning of future missions.   
 </br>
 
 <br>
@@ -47,6 +47,8 @@ The dataset we created consists of two type of images -<br>
 
 ### Model Used:
 We have used [<b>Pix2Pix</b>](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) model to solve this Task.<br>
+![OUTPUT](./Images/pix2pix.png)
+<br>
 We have tested this model with two loss functions:
 &emsp;1.Vanilla Gan Loss
 &emsp;2.Lsgan Loss
