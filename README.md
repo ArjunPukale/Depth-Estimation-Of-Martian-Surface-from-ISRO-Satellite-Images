@@ -23,7 +23,7 @@ The dataset we created consists of two type of images -<br>
 <br>
 <b>Data Preprocessing</b>
 </br>
-1. We captured 1:1 identical pair of images from Isro satellite images and Nasa's Mola Depth Map respectively, along Valles Marineris canyon system at the map scale of 53km .<br>
+1. We gathered 1:1 identical pair of images from Isro satellite images and Nasa's Mola Depth Map respectively, along Valles Marineris canyon system at the map scale of 53km .<br>
 2. A total of 38 images were collected which were captured by MOM at different intervals of time in its orbits. <br>
 3. Each image was augmented to a set of 10 images thus reaching a total count of 380 images.<br>
 4. Different augmentation techniques were used such as :<br>
